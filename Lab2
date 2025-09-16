@@ -1,0 +1,22 @@
+<html>
+<head><title>Lab 02</title></head>
+<body>
+<h1>My Lab 02 Demo</h1>
+<p>This is <b>bold</b>, <i>italic</i>, and <u>underlined</u> text.</p>
+
+<p>Formula: H<sub>2</sub>O, 2<sup>4</sup>=16</p>
+
+<h3>My Favorite Fruits</h3>
+<ol type="A">
+  <li>Apples</li>
+  <li>Bananas</li>
+  <li>Lemons</li>
+</ol>
+
+<h3>Useful Links</h3>
+<a href="http://www.kau.edu.sa/">Visit KAU</a>
+
+<h3>Image Example</h3>
+<img src="kaulog.gif" alt="KAU Logo" width="120" height="135"/>
+</body>
+</html>
