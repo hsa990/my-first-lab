@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lab 04</title>
+  
+  <link rel="stylesheet" href="lab4excercise.css">
+
+  <style>
+    h2 { color: #0f766e; } /* tealgreen */
+    .note { background:#f0fdf4; padding:8px; border-left:4px solid #065f46; }
+    li:first-child { font-weight: 700; }
+  </style>
+  
+</head>
+<body>
+  <!-- h1 styled by EXTERNAL tag selector -->
+  <h1>My Portfolio</h1>
+
+  <!-- h2 styled by INTERNAL tag selector + INLINE italic -->
+  <h2 style="font-style: italic;">About Me</h2>
+
+  <!-- paragraph styled by INTERNAL class selector -->
+  <p class="note">I’m learning HTML & CSS and mixing selectors as required.</p>
+
+  <!-- image uses INLINE style -->
+  <img src="me.jpg" alt="Me" style="width:200px; border:3px solid #064e3b; border-radius:10px;">
+
+  <!-- link gets EXTERNAL pseudo-class (a:hover) -->
+  <p>Docs: <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">MDN</a></p>
+
+  <!-- list shows INTERNAL pseudo-class (li:first-child) -->
+  <ul class="card">  <!-- card class styled by EXTERNAL class selector -->
+    <li>First item (bold via :first-child)</li>
+    <li>Second item</li>
+  </ul>
+</body>
+</html>
 
