@@ -1,1 +1,3 @@
-
+h1 { color: #064e3b; }              /* dark green */
+.card { padding: 12px; border: 1px solid #ccc; border-radius: 8px; }
+a:hover { text-decoration: underline; }
